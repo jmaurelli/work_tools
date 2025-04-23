@@ -1,8 +1,11 @@
 How to Use:
 
 Save: Save the code above as test_linux_diagnostic_script.sh.
+
 Original Script: Ensure linux_diagnostic_script.sh is in the same directory (or update SCRIPT_UNDER_TEST).
+
 shunit2: Ensure shunit2 is available (download and place as ./shunit2 or have it in your PATH). The test script now includes a basic check for it.
+
 Make Executable: chmod +x test_linux_diagnostic_script.sh
 Run: ./test_linux_diagnostic_script.sh
 Explanation of New Tests:
