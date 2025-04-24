@@ -155,6 +155,8 @@ log_patterns=(
     "/var/log/algosec-top-*"
     "/home/afa/.fa-history*"
     "/data/ms-metro/logs/catalina.out*"
+    "/var/log/algosec-pidstat*"                 
+    "/var/log/algosec_toolbox/sizing_calculator/*"
 )
 
 # ** FIX for Issue 2: Expand wildcards before checking/zipping **
