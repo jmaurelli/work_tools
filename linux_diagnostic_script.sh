@@ -157,6 +157,8 @@ log_patterns=(
     "/data/ms-metro/logs/catalina.out*"
     "/var/log/algosec-pidstat*"                 
     "/var/log/algosec_toolbox/sizing_calculator/*"
+    "/var/log/httpd/"
+    "/data/ms-metro/logs/localhost*"
 )
 
 # ** FIX for Issue 2: Expand wildcards before checking/zipping **
